@@ -29,3 +29,6 @@ Console.ResetColor();
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 Console.WriteLine("Привіт Україно!");
+
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("Гарного дня!");
