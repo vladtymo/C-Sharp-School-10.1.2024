@@ -3,6 +3,7 @@
 
 var rand = new Random();
 int score = 100;
+int winsInRow = 0;
 
 while (true)
 {
@@ -18,12 +19,27 @@ while (true)
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("You won! +20");
         score += 20;
+        ++winsInRow;
+
+        if(rate == 6)
+        {
+            Console.WriteLine("Happy rate! bonus +15");
+            score += 15;
+        }
     }
     else
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("You loose! -5");
         score -= 5;
+        winsInRow = 0;
+    }
+
+    if (winsInRow >= 2)
+    {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Jackpot! +50");
+        score += 50;
     }
 
     DrawDice(randomNumber);
