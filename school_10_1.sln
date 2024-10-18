@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_logic_operators", "03_lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_game", "04_game\04_game.csproj", "{86BE02CA-CCA9-4D5A-9B69-A7707360700F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_array", "05_array\05_array.csproj", "{BD8671D6-D362-4579-A90F-190F8A66B6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_puzzle_game", "06_puzzle_game\06_puzzle_game.csproj", "{A4F93170-FFD9-49AE-91BC-3058669EA309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{86BE02CA-CCA9-4D5A-9B69-A7707360700F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BE02CA-CCA9-4D5A-9B69-A7707360700F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BE02CA-CCA9-4D5A-9B69-A7707360700F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8671D6-D362-4579-A90F-190F8A66B6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8671D6-D362-4579-A90F-190F8A66B6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8671D6-D362-4579-A90F-190F8A66B6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8671D6-D362-4579-A90F-190F8A66B6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F93170-FFD9-49AE-91BC-3058669EA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F93170-FFD9-49AE-91BC-3058669EA309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F93170-FFD9-49AE-91BC-3058669EA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F93170-FFD9-49AE-91BC-3058669EA309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
